@@ -144,7 +144,7 @@
     "jest-cli": "18.0.0",
     "jest-fetch-mock": "^1.0.6",
     "node-sass": "3.7.0",
-    "npm-run-all": "1.8.0",
+    "npm-run-all": "^1.8.0",
     "prompt": "1.0.0",
     "react-addons-test-utils": "15.4.2",
     "redux-immutable-state-invariant": "1.2.3",
@@ -158,5 +158,8 @@
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
+  },
+  "engines": {
+    "node": "7.x.x"
   }
 }
