@@ -1,0 +1,17 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/findup
+<PROJECT_ROOT>/node_modules/jss
+
+[include]
+
+[libs]
+
+[options]
+module.file_ext=.css
+module.file_ext=.scss
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+
+module.name_mapper='.*\.css$' -> './helpers/CSSModule'
+
